@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: poppins;
+}
+
+#logo {
+    width: 52px;
+}
+
+.background-image2 {
+    position: absolute;
+    left: 0;
+    top: 0.5;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.holdingcontainer {
+    widows: 100%;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.internalcontainerL {
+    flex: 1;
+    background-color: honeydew;
+    padding: 30px;
+    font-size: 12px;
+    font-family: "roboto", sans-serif;
+    margin: 3px;
+}
+
+.internalcontainerR {
+    flex: 1;
+    background-color: honeydew;
+    padding: 30px;
+    font-size: 12px;
+    font-family: "roboto", sans-serif;
+    margin: 3px;
+}
+
+.internalcontainerM {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    font-size: 12px;
+    font-family: "Courier New", Courier, monospace;
+    margin: 3px;
+    background-color: honeydew;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+a {
+    text-decoration: none;
+
+    margin-top: 5px;
+    color: white;
+}
+
+nav {
+    font-size: 2rem;
+    background-color: rgb(214, 138, 51);
+    padding-bottom: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lato", sans-serif;
+}
+
+nav ul li a {
+    cursor: pointer;
+
+    flex: auto;
+    text-align: center;
+    font-size: 16px;
+    justify-content: right;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+@media all and (max-width: 1197px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        text-align: center;
+        display: block;
+    }
+}
+
+a:hover {
+    border-bottom: 3px solid white;
+}
+
+@media screen and (max-width: 977px) {
+    .holdingcontainer {
+        flex-direction: column;
+    }
+}
+
+.bike-trail {
+    opacity: 0.5;
+
+    width: 100%;
+    height: 400px;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+    display: block;
+}
+
+img .bike-trail {
+    position: absolute;
+    width: 500px;
+
+    left: 0;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 120px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    font-family: Lato;
+    color: black;
+    z-index: 1;
+    transition: top 0.5s ease;
+}
+
+.container:hover .title {
+    top: 90px;
+}
+
+.button {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.button a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: black;
+    border: solid 2px rgb(230, 177, 79);
+    z-index: 1;
+}
+
+.container:hover .button {
+    opacity: 1;
+}
+
+.cimg {
+    height: 300px;
+}
+
+.holding-intro {
+    position: absolute;
+    top: 630px;
+    font-family: Lato;
+    left: 40%;
+}
+
+.cimg:hover {
+    cursor: pointer;
+}
+
+.what-we-do {
+    padding-top: 1px;
+}
+
+hr {
+    color: orangered;
+    margin-top: 300px;
+}
+
+.holding-containerT {
+    flex: 1;
+    background-color: honeydew;
+    padding: 30px;
+    font-size: 12px;
+    font-family: "roboto", sans-serif;
+    margin: 3px;
+}
+
+.about {
+    padding-top: 2px;
+    font-family: Lato;
+}
+
+p {
+    font-family: lato;
+    font-size: 20px;
+}
+
+.hr2 {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.holding-containerSM {
+    flex: 1;
+    background-color: honeydew;
+    padding: 20px;
+    font-size: 12px;
+    font-family: "roboto", sans-serif;
+    margin: 3px;
+    width: 10%;
+    height: 200px;
+    margin-top: 100px;
+}
