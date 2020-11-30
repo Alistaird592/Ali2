@@ -2,23 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body {
-    font-family: poppins;
-}
+
 
 #logo {
     width: 52px;
 }
 
-.background-image2 {
-    position: absolute;
-    left: 0;
-    top: 0.5;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.5;
-}
+
 
 .holdingcontainer {
     widows: 100%;
@@ -26,7 +16,7 @@ body {
     padding: 50px;
     box-sizing: border-box;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .internalcontainerL {
@@ -116,3 +106,98 @@ a:hover {
         flex-direction: column;
     }
 }
+
+
+.img{
+    width:10%;
+}
+
+p{font-size:20px}
+
+
+#logo{
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%;
+    
+}
+
+h1{
+
+    text-align: center;
+    color:rgb(214, 138, 51);
+}
+
+hr{
+
+    margin-bottom:50px;
+    
+}
+
+
+h1#wwp{
+
+    margin-top:50px;
+}
+
+iframe.video{
+
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    display: block;
+   
+}
+
+button{
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    display: block;
+    
+  
+}
+
+div.sml-images, .sml{
+
+    margin: auto;
+    width: 52%;
+    height:120px;
+   justify-content:space-between;
+    display: flex;
+    flex-direction:row;
+
+   padding-left:60px;
+   padding-right:100px;
+
+   margin-left:auto;
+   margin-right:auto;
+
+
+    
+    
+}
+
+.sml{background-color:honeydew;
+}
+
+
+.contact{margin-top:100px;}
+
+
+h1#contact{
+
+    margin-top:100px;
+}
+
+p{
+
+    padding-top:40px;
+    
+    color:rgb(214, 138, 51);
+    text-align:center;
+}
+
+figcaption{color:rgb(214, 138, 51);}
