@@ -201,3 +201,41 @@ p{
 }
 
 figcaption{color:rgb(214, 138, 51);}
+
+
+iframe{
+margin: auto;
+    width: 30%;
+    padding: 10px;
+    display: block;}
+
+
+    .table1{
+
+        padding-top:90px;
+    }
+
+
+
+
+    input{
+        margin: auto;
+        width: 30%;
+        padding: 10px;
+        display: block;
+    }
+
+
+
+    @media all and (max-width:910px){
+
+
+        .social-media{
+
+            flex-direction:column;
+        }
+    }
+
+
+    .sml{height:400px;
+    width:200px;}
