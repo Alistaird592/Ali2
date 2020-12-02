@@ -42,7 +42,7 @@
     background: white;
     padding: 30px;
     font-size: 12px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "roboto", sans-serif;
     margin: 3px;
     background-color: honeydew;
 }
@@ -125,7 +125,8 @@ p{font-size:20px}
 }
 
 h1{
-
+padding-top:20px;
+padding-bottom:20px;
     text-align: center;
     color:rgb(214, 138, 51);
 }
@@ -160,25 +161,6 @@ button{
   
 }
 
-div.sml-images, .sml{
-
-    margin: auto;
-    width: 52%;
-    height:120px;
-   justify-content:space-between;
-    display: flex;
-    flex-direction:row;
-
-   padding-left:60px;
-   padding-right:100px;
-
-   margin-left:auto;
-   margin-right:auto;
-
-
-    
-    
-}
 
 .sml{background-color:honeydew;
 }
@@ -232,10 +214,48 @@ margin: auto;
 
         .social-media{
 
-            flex-direction:column;
+            flex-direction:row;
         }
     }
 
 
-    .sml{height:400px;
-    width:200px;}
+    
+
+
+
+    .social-media{display:flex;
+    
+    flex-direction:row;
+
+
+}
+
+
+.sml{
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    display:flex;
+    margin: auto;
+    
+    padding: 10px;
+    display: block;
+    
+}
+
+
+
+
+
+@media all and (max-width:800px)
+
+{
+    .social-media{display:flex;
+        flex-direction: column;
+    
+    }
+
+    
+}
