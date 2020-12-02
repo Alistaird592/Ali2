@@ -259,3 +259,14 @@ margin: auto;
 
     
 }
+
+
+.internal-containerP{
+
+    flex: 1;
+    background-color: honeydew;
+    padding: 30px;
+    font-size: 12px;
+    font-family: "roboto", sans-serif;
+    margin: 3px;
+}
