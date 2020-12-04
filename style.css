@@ -228,3 +228,19 @@ input {
   font-family: "roboto", sans-serif;
   margin: 3px;
 }
+
+
+@media all and (max-width:640px)
+
+{
+
+  img.Home1{
+
+    width:90%;
+  }
+
+
+  iframe.video{
+    width:80%;
+  }
+}
