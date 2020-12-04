@@ -238,8 +238,8 @@ input {
   }
 
 
-  iframe{
-    width:300px;
+  iframe.video{
+    width:80%;
   }
 
 
